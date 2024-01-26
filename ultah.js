@@ -87,7 +87,7 @@ function initengahan(){
   },}).go();
   }
   function aktipesan4(){
-    wallpaper.style="transform: scale(1.5);";kalimat.innerHTML=pesan4.innerHTML + nama + " 🥳";kalimat.style="transform:scale(1.2)";setTimeout(aktipesan5,1000);
+    wallpaper.style="transform: scale(1.5);";kalimat.innerHTML=pesan4.innerHTML + "Ulfatul Khoeriyah" + " 🥳";kalimat.style="transform:scale(1.2)";setTimeout(aktipesan5,1000);
   }
   vketik5=pesan5.innerHTML;pesan5.innerHTML="";
   function aktipesan5(){
@@ -148,7 +148,7 @@ function initengahan(){
   document.getElementById("lv4").onclick = function() {lv4.style="opacity:0";slov+=1;this.onclick=null;checkslov();}
   var slov=0;function checkslov() {if(slov==4){kolombaru.style="position:relative;transform:scale(1)";otomatis();setTimeout(aktipesan2,400);}}
   
-  async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({title: nama + ' ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker6.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
+  async function pertanyaan(){var { isConfirmed: prtanya } = await swals.fire({title: "Ulfatul Khoeriyah" + ' ' + tanya, text: '' + opstanya, imageUrl: '' + fotostiker6.src, showCancelButton: true, confirmButtonText: '' + tompositif, cancelButtonText: '' + tomnegatif,});
     if(prtanya){
   await swalst.fire({title: '' + katatambahan.innerHTML, timer: 2000, imageUrl: '' + stikerditolak.src,});
       vketik8=vketik81;aktipesan8();
